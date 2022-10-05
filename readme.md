@@ -6,15 +6,13 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Hacktoberfest][hacktoberfest-shield]][hacktoberfest-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
+[![License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
-<div style="text-align:center">
+<div align="center" style="text-align: center">
 	<a href="https://github.com/Mahtaran/maht-home">
-		<img src="https://via.placeholder.com/80?text=Logo" alt="Logo" width="80" height="80">
+		<img src="https://via.placeholder.com/80.png?text=Logo" alt="Logo" width="80" height="80">
 	</a>
 	<h3>Maht's Home</h3>
 	<p>
@@ -39,6 +37,7 @@
 		<li>
 			<a href="#about-the-project">About The Project</a>
 			<ul>
+				<li><a href="#why-mahts-home">Why Maht's Home?</a></li>
 				<li><a href="#built-with">Built With</a></li>
 			</ul>
 		</li>
@@ -50,7 +49,6 @@
 			</ul>
 		</li>
 		<li><a href="#usage">Usage</a></li>
-		<li><a href="#roadmap">Roadmap</a></li>
 		<li><a href="#contributing">Contributing</a></li>
 		<li><a href="#license">License</a></li>
 		<li><a href="#contact">Contact</a></li>
@@ -80,7 +78,7 @@
 
 Maht's Home is a simple home management system that makes a home more efficient and easier to manage. It is a web application that can be accessed from any device with a web browser.
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Why Maht's Home?
 
@@ -110,7 +108,7 @@ So why should you use Maht's Home? Below is a list of all planned features.
 	- [ ] A settings section that can be used to configure the system.
 	- [ ] A user management section that can be used to manage users.
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
@@ -132,7 +130,7 @@ So why should you use Maht's Home? Below is a list of all planned features.
 [![Git][git-shield]][git-url]
 [![GitHub][github-shield]][github-url]
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -170,7 +168,7 @@ Before you begin, ensure you have met the following requirements:
    meteor
    ```
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
@@ -181,7 +179,7 @@ Additional screenshots, code examples and demos might be added, as well as links
 
 _For more examples, please refer to the [Documentation (to be done)](https://example.com)_
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTRIBUTING -->
@@ -200,7 +198,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
@@ -208,7 +206,7 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the Unlicense. See `license.md` for more information.
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
@@ -226,7 +224,7 @@ Main contact: **Luka "Mahtaran" Leer**
 [![Reddit][reddit-shield]][reddit-url]
 [![Twitter][twitter-shield]][twitter-url]
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -234,7 +232,7 @@ Main contact: **Luka "Mahtaran" Leer**
 
 * [Readme template by Othneil Drew](https://github.com/othneildrew/Best-README-Template)
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -247,9 +245,9 @@ Main contact: **Luka "Mahtaran" Leer**
 [hacktoberfest-shield]: https://img.shields.io/github/hacktoberfest/2022/Mahtaran/maht-home?style=for-the-badge
 [hacktoberfest-url]: https://hacktoberfest.digitalocean.com/
 [license-shield]: https://img.shields.io/github/license/Mahtaran/maht-home.svg?style=for-the-badge
-[license-url]: https://github.com/Mahtaran/maht-home/blob/master/LICENSE.md
+[license-url]: https://github.com/Mahtaran/maht-home/blob/main/license.md
 
-[product-screenshot]: https://via.placeholder.com/800x600?text=Product+screenshot
+[product-screenshot]: https://via.placeholder.com/800x600.png?text=Product+screenshot
 
 [github-repo-file-count]: https://img.shields.io/github/directory-file-count/Mahtaran/maht-home?style=for-the-badge
 [github-repo-size]: https://img.shields.io/github/repo-size/Mahtaran/maht-home?style=for-the-badge
