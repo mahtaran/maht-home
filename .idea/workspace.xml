@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b19c76d-61af-47cf-b3c4-6e09e7353b3f" name="Changes" comment=":tada: initial Meteor &amp; dependencies setup">
+      <change afterPath="$PROJECT_DIR$/imports/api/TaskCollection.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imports/ui/Task.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imports/ui/TaskForm.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imports/ui/ToDo.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.meteor/packages" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.meteor/versions" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/versions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imports/ui/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/App.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +31,9 @@
         <option value="Collection" />
         <option value="Route.svelte" />
         <option value="Nested" />
+        <option value="ToDo" />
+        <option value="Task" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -64,29 +78,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HbShouldOpenHtmlAsHb&quot;: &quot;enabled&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;js.meteor.library.was.enabled&quot;: &quot;true&quot;,
-    &quot;js.meteor.project&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JavaScript&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HbShouldOpenHtmlAsHb": "enabled",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.meteor.library.was.enabled": "true",
+    "js.meteor.project": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Other File Types",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;js.meteor.library.cached&quot;: [
-      &quot;E:/Coding/Projects/Mahtaran/maht-home/.meteor&quot;,
-      &quot;E:/Coding/Projects/Mahtaran/maht-home/maht-home/.meteor&quot;
+  "keyToStringList": {
+    "js.meteor.library.cached": [
+      "E:/Coding/Projects/Mahtaran/maht-home/.meteor",
+      "E:/Coding/Projects/Mahtaran/maht-home/maht-home/.meteor"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Coding\Projects\Mahtaran\maht-home\imports\tinro\ui" />
@@ -120,6 +134,7 @@
       <updated>1664922142519</updated>
       <workItem from="1664922150339" duration="374000" />
       <workItem from="1664923142540" duration="22272000" />
+      <workItem from="1664950254029" duration="3508000" />
     </task>
     <task id="LOCAL-00001" summary=":memo: add a readme">
       <created>1664945306646</created>

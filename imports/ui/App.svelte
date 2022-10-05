@@ -1,5 +1,11 @@
 <script lang="ts">
 	import { Route } from "tinro";
+	import ToDo from "./ToDo.svelte";
+
+	// Do nothing with each Svelte element
+	// We need to use it some way, otherwise it will be removed from the imports
+	Route;
+	ToDo;
 
 	let counter = 0;
 	let doubled;
@@ -9,12 +15,11 @@
 	};
 
 	$: doubled = counter * 2;
-
-	console.log(Route);
 </script>
 
 <nav>
 	<a href="/">Home</a>
+	<a href="/to-do">To do</a>
 	<a href="/admin">Admin</a>
 </nav>
 
@@ -34,6 +39,9 @@
 			<li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
 		</ul>
 	</div>
+</Route>
+<Route path="/to-do">
+	<ToDo />
 </Route>
 <Route path="/admin">
 	<div class="container">

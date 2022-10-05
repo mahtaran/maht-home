@@ -25,3 +25,4 @@ zodern:standard-minifier-js
 zodern:hide-production-sourcemaps
 zodern:types
 fourseven:scss
+dev-error-overlay
