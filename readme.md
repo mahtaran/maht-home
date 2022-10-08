@@ -163,9 +163,15 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/Mahtaran/maht-home.git
    ```
 2. Run the app
+   * UNIX
    ```sh
    cd maht-home
-   meteor
+   scripts/run.sh
+   ```
+   * Windows
+   ```ps
+   cd maht-home
+   scripts\run.ps1
    ```
 
 <p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
